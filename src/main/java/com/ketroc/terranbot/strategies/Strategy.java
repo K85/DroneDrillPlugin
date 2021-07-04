@@ -17,7 +17,9 @@ import com.ketroc.terranbot.models.Base;
 import com.ketroc.terranbot.purchases.Purchase;
 import com.ketroc.terranbot.purchases.PurchaseStructure;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Comparator;
@@ -138,17 +140,18 @@ public class Strategy {
     }
 
     private static void setStrategyNumber() {
-        try {
-            String[] fileText = Files.readString(Paths.get("./data/prevResult.txt")).split("~");
-            String lastOpponentId = fileText[0];
-            int opponentStrategy = Integer.valueOf(fileText[1]);
-            if (lastOpponentId.equals(BansheeBot.opponentId) && LocationConstants.opponentRace != Race.RANDOM) {
-                selectedStrategy = opponentStrategy;
-            } else {
-                selectedStrategy = 0;
-            }
-        } catch (IOException var3) {
-            var3.printStackTrace();
+
+
+        String[] fileText = new String[0];
+        // Fix
+        fileText = "5f0cdd49b351856~1".split("~");
+
+        String lastOpponentId = fileText[0];
+        int opponentStrategy = Integer.valueOf(fileText[1]);
+        if (lastOpponentId.equals(BansheeBot.opponentId) && LocationConstants.opponentRace != Race.RANDOM) {
+            selectedStrategy = opponentStrategy;
+        } else {
+            selectedStrategy = 0;
         }
 
     }

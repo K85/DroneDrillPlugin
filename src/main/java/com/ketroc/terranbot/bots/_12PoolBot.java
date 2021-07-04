@@ -32,6 +32,9 @@ public class _12PoolBot extends S2Agent {
         myUnits = new HashMap();
     }
 
+    public _12PoolBot() {
+    }
+
     public void onGameStart() {
         obs = this.observation();
         action = this.actions();

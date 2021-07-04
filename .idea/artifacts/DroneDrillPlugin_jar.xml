@@ -1,9 +1,47 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="DroneDrillPlugin:jar">
+  <artifact name="DroneDrillPlugin:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/DroneDrillPlugin_jar</output-path>
-    <root id="archive" name="DroneDrillPlugin.jar">
-      <element id="module-output" name="DroneDrillPlugin" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../Jars/DroneDrill.jar" path-in-jar="/" />
+    <root id="root">
+      <element id="archive" name="DroneDrillPlugin.jar">
+        <element id="module-output" name="DroneDrillPlugin" />
+      </element>
+      <element id="library" level="project" name="Maven: io.vertx:vertx-rx-java2:3.7.0" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-dns:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.13.3" />
+      <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.13.3" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-socks:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.1" />
+      <element id="library" level="project" name="Maven: io.vertx:vertx-codegen:3.7.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-http2:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: org.mvel:mvel2:2.3.1.Final" />
+      <element id="library" level="project" name="Maven: com.typesafe:config:1.3.3" />
+      <element id="library" level="project" name="Maven: org.javassist:javassist:3.23.1-GA" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.1" />
+      <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: io.vertx:vertx-web-common:3.7.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: com.github.ocraft:ocraft-s2client-bot:0.4.2" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.1" />
+      <element id="library" level="project" name="Maven: info.picocli:picocli:3.7.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
+      <element id="library" level="project" name="Maven: io.vertx:vertx-core:3.7.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: io.vertx:vertx-rx-gen:3.7.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: com.github.ocraft:ocraft-s2client-protocol:0.4.2" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-handler-proxy:4.1.30.Final" />
+      <element id="library" level="project" name="Maven: io.reactivex.rxjava2:rxjava:2.2.4" />
+      <element id="library" level="project" name="Maven: com.github.ocraft:ocraft-s2client-api:0.4.2" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Jars/Titanium.jar" />
+      <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.7.1" />
+      <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.1" />
+      <element id="library" level="project" name="Maven: io.vertx:vertx-web-client:3.7.0" />
     </root>
   </artifact>
 </component>
