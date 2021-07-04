@@ -1,0 +1,11 @@
+{
+  "Bots": {
+    "DroneDrill": {
+      "Race": "Zerg",
+      "Type": "Java",
+      "RootPath": "./",
+      "FileName": "DroneDrill.jar",
+      "Debug": true
+    }
+  }
+}
